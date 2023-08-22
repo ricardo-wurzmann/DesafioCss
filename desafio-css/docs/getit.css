@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,112 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+.appbar{
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  background-color: #f7d736;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  width: 5%;
+  height: 5%;
+}
+
+.subtitle{
+  display: flex;
+  margin-left: 0.5rem;
+  align-self: center;
+}
+
+.form-card{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.4rem;
+  border-style: solid;
+  border-radius: 0.3rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.form-card-title{
+  border-style: hidden;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.autoresize{
+  border-style: hidden;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  border-style: solid;
+  border-radius: 0.6rem;
+  border-width: 0.1rem;
+  width: 15rem;
+  height: 15rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.4rem;
+}
+
+.card-title{
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-content{
+  font-style: italic;
+}
+
+.card:nth-child(1) {
+  background-color: #ead3a7;
+}
+
+.card:nth-child(2) {
+  background-color: #9de0f5;
+}
+
+.card:nth-child(3) {
+  background-color: #ef89ba;
+}
+
+.card:nth-child(4) {
+  background-color: #fae890;
+}
+
+.card:nth-child(5) {
+  background-color: #ead3a7;
+}
+
+.card:nth-child(6) {
+  background-color: #9de0f5;
+}
+
+.card:nth-child(7) {
+  background-color: #ef89ba;
+}
+
+.card:nth-child(8) {
+  background-color: #fae890;
+}
+
+.card:nth-child(9) {
+  background-color: #ef89ba;
+}
+
+.card:nth-child(10) {
+  background-color: #fae890;
+}
