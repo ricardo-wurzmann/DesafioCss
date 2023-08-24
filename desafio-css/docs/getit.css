@@ -98,12 +98,17 @@ body {
   margin-left: 0.5rem;
   align-self: center;
 }
-
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .form-card{
   display: flex;
   flex-direction: column;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  flex:1 1 calc(33.33% - 1.5rem);
+  width: 45vw;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 0.4rem;
@@ -114,7 +119,7 @@ body {
 
 .form-card-title{
   border-style: hidden;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -124,65 +129,86 @@ body {
 
 .card-container{
   display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
   justify-content: space-between;
 }
 
 .card{
   border-style: solid;
   border-radius: 0.6rem;
-  border-width: 0.1rem;
+  box-shadow: 0.4rem 0.3rem 0.8rem rgba(136, 134, 134, 0.6);
   width: 15rem;
-  height: 15rem;
+  height: 9rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 3rem;
   padding: 0.4rem;
+
 }
 
 .card-title{
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .card-content{
+  display: flex;
+  align-self: flex-end;
+  margin-top: 1.5rem;
   font-style: italic;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  color: rgb(85, 82, 82);
 }
 
-.card:nth-child(1) {
+.card.card-rotation-1 {
+  transform: rotate(4deg);
   background-color: #ead3a7;
 }
 
-.card:nth-child(2) {
+.card.card-rotation-2 {
+  transform: rotate(-5deg);
   background-color: #9de0f5;
 }
 
-.card:nth-child(3) {
+.card.card-rotation-3 {
+  transform: rotate(-3deg);
   background-color: #ef89ba;
 }
 
-.card:nth-child(4) {
+.card.card-rotation-4 {
+  transform: rotate(-2deg);
   background-color: #fae890;
 }
 
-.card:nth-child(5) {
+.card.card-rotation-5 {
+  transform: rotate(5deg);
   background-color: #ead3a7;
 }
 
-.card:nth-child(6) {
+.card.card-rotation-6 {
+  transform: rotate(5deg);
   background-color: #9de0f5;
 }
 
-.card:nth-child(7) {
+.card.card-rotation-7 {
+  transform: rotate(-1deg);
   background-color: #ef89ba;
 }
 
-.card:nth-child(8) {
+.card.card-rotation-8 {
+  transform: rotate(-8deg);
   background-color: #fae890;
 }
 
-.card:nth-child(9) {
+.card.card-rotation-9 {
+  transform: rotate(8deg);
   background-color: #ef89ba;
 }
 
-.card:nth-child(10) {
+.card.card-rotation-10 {
+  transform: rotate(0deg);
   background-color: #fae890;
 }
