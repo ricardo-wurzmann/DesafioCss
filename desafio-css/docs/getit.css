@@ -155,8 +155,11 @@ body {
 
 .card-content{
   display: flex;
-  align-self: flex-end;
-  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3.5rem;
+  height: 100%;
+  box-sizing: border-box;
   font-style: italic;
   font-family: 'Permanent Marker', cursive;
   font-weight: normal;
@@ -165,7 +168,7 @@ body {
 
 .card.card-rotation-1 {
   transform: rotate(4deg);
-  background-color: #ead3a7;
+  background-color: #ca9a41;
 }
 
 .card.card-rotation-2 {
